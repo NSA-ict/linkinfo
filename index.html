@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search Data from Google Sheet</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Search Data</h1>
+  <div id="searchForm">
+    <input type="text" id="searchInput" placeholder="Enter search value">
+    <button onclick="searchData()">Search</button>
+  </div>
+  <div id="searchResults"></div>
+
+  <!-- Include the Google Sheets API script -->
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
