@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Search Data from Google Sheet</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Korean Student ID Smart Card</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h1>Search Data</h1>
-  <div id="searchForm">
-    <input type="text" id="searchInput" placeholder="Enter search value">
-    <button onclick="searchData()">Search</button>
+  <div class="id-card">
+    <div class="details">
+      <h2 class="name">Naypyitaw State Academy</h2>
+      <p class="student-id">Student ID: 123456</p>
+      <p class="university">University: Example University</p>
+      <p class="major">Major: Computer Science</p>
+    </div>
+    <div class="photo">
+      <img src="student_photo.jpg" alt="Student Photo">
+    </div>
   </div>
-  <div id="searchResults"></div>
-
-  <!-- Include the Google Sheets API script -->
-  <script src="https://apis.google.com/js/api.js"></script>
-  <script src="script.js"></script>
 </body>
 </html>
